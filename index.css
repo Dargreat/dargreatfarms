@@ -514,12 +514,12 @@ nav {
 }
 
     .hero {
-        height: 80vh;
+         height: 50vh;
         padding: 0 2rem;
     }
 
     .hero-text {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
 
     .about-section, .services-section, .healthy-food-section, .testimonials-section {
