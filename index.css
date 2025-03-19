@@ -498,7 +498,7 @@ nav {
 
 @media (max-width: 480px) {
     nav {
-        flex-direction: column; /* Stack logo and links vertically */
+        flex-direction: row; /* Stack logo and links vertically */
         align-items: flex-start; /* Align items to the left */
         padding: 0.5rem 1rem; /* Minimal padding for very small screens */
     }
@@ -508,7 +508,7 @@ nav {
     }
 
     .nav-links {
-        flex-direction: column; /* Stack links vertically */
+        flex-direction: row; /* Stack links vertically */
         gap: 0.5rem; /* Reduced gap for vertical layout */
     }
 }
