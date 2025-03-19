@@ -480,8 +480,38 @@ nav {
 
 @media (max-width: 768px) {
     nav {
-        padding: 1rem 2rem;
+        padding: 0.8rem 1rem; /* Further reduced padding for smaller screens */
     }
+
+    .logo {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+
+    .nav-links {
+        gap: 0.8rem; /* Further reduced gap for smaller screens */
+    }
+
+    .nav-links a {
+        font-size: 0.8rem; /* Smaller font size for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column; /* Stack logo and links vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 0.5rem 1rem; /* Minimal padding for very small screens */
+    }
+
+    .logo {
+        margin-bottom: 0.5rem; /* Add space between logo and links */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links vertically */
+        gap: 0.5rem; /* Reduced gap for vertical layout */
+    }
+}
 
     .hero {
         height: 80vh;
